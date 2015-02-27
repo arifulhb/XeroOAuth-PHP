@@ -1,0 +1,25 @@
+{
+    "name": "xero/XeroOAuth-PHP",
+    "description": "XeroOAuth-PHP. Implimentation for Private type App",
+    "type":"library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Ariful Haque",
+            "email": "arifulhb@gmail.com",
+            "homepage": "http://www.arifulhaque.com",
+            "role": "Contributor"
+        }
+    ],
+    "keywords":["xero","XeroOAuth-PHP"],
+    "minimum-stability": "dev",
+    "require": {
+	    "php":">=5.3.0"
+	  },
+    "require-dev": {},
+    "autoload":{
+	    "psr-4":{
+ 		  "Xero\\XeroOAuth-PHP\\":"src/"
+		}
+     }
+}
